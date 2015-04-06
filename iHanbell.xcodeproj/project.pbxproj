@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1049B221AD18D3700532703 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B211AD18D3700532703 /* LoginViewController.m */; };
+		E1049B2C1AD2511500532703 /* ListCustomerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B241AD2511500532703 /* ListCustomerController.m */; };
+		E1049B2D1AD2511500532703 /* ListSalesOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B261AD2511500532703 /* ListSalesOrderController.m */; };
+		E1049B2E1AD2511500532703 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B281AD2511500532703 /* MainViewController.m */; };
+		E1049B2F1AD2511500532703 /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = E1049B291AD2511500532703 /* order.png */; };
+		E1049B301AD2511500532703 /* SalesOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B2B1AD2511500532703 /* SalesOrderCell.m */; };
+		E1049B331AD2519F00532703 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E1049B321AD2519F00532703 /* bg.png */; };
+		E1049B361AD252AD00532703 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = E1049B341AD252AD00532703 /* account.png */; };
+		E1049B371AD252AD00532703 /* customer.png in Resources */ = {isa = PBXBuildFile; fileRef = E1049B351AD252AD00532703 /* customer.png */; };
+		E1049B461AD2531F00532703 /* AddCustomerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B391AD2531F00532703 /* AddCustomerController.m */; };
+		E1049B471AD2531F00532703 /* Cdrcus.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B3B1AD2531F00532703 /* Cdrcus.m */; };
+		E1049B481AD2531F00532703 /* Cdrschedule.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B3D1AD2531F00532703 /* Cdrschedule.m */; };
+		E1049B491AD2531F00532703 /* CoreDataTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B3F1AD2531F00532703 /* CoreDataTableController.m */; };
+		E1049B4B1AD2531F00532703 /* CustomerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B431AD2531F00532703 /* CustomerCell.m */; };
+		E1049B4C1AD2531F00532703 /* EditCustomerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1049B451AD2531F00532703 /* EditCustomerController.m */; };
+		E1806AE31AD1847D00CD0B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1806AE21AD1847D00CD0B36 /* main.m */; };
+		E1806AE61AD1847D00CD0B36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1806AE51AD1847D00CD0B36 /* AppDelegate.m */; };
+		E1806AE91AD1847D00CD0B36 /* iHanbell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1806AE71AD1847D00CD0B36 /* iHanbell.xcdatamodeld */; };
+		E1806AEF1AD1847D00CD0B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1806AED1AD1847D00CD0B36 /* Main.storyboard */; };
+		E1806AF11AD1847D00CD0B36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1806AF01AD1847D00CD0B36 /* Images.xcassets */; };
+		E1806AF41AD1847D00CD0B36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1806AF21AD1847D00CD0B36 /* LaunchScreen.xib */; };
+		E1806B001AD1847D00CD0B36 /* iHanbellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1806AFF1AD1847D00CD0B36 /* iHanbellTests.m */; };
+		E19F2C251AD255D300AE0DF1 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = E19F2C241AD255D300AE0DF1 /* Customer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1806AFA1AD1847D00CD0B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1806AD51AD1847D00CD0B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1806ADC1AD1847D00CD0B36;
+			remoteInfo = iHanbell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1049B201AD18D3700532703 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E1049B211AD18D3700532703 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E1049B231AD2511500532703 /* ListCustomerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCustomerController.h; sourceTree = "<group>"; };
+		E1049B241AD2511500532703 /* ListCustomerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCustomerController.m; sourceTree = "<group>"; };
+		E1049B251AD2511500532703 /* ListSalesOrderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListSalesOrderController.h; sourceTree = "<group>"; };
+		E1049B261AD2511500532703 /* ListSalesOrderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSalesOrderController.m; sourceTree = "<group>"; };
+		E1049B271AD2511500532703 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E1049B281AD2511500532703 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E1049B291AD2511500532703 /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = order.png; sourceTree = "<group>"; };
+		E1049B2A1AD2511500532703 /* SalesOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrderCell.h; sourceTree = "<group>"; };
+		E1049B2B1AD2511500532703 /* SalesOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesOrderCell.m; sourceTree = "<group>"; };
+		E1049B321AD2519F00532703 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		E1049B341AD252AD00532703 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		E1049B351AD252AD00532703 /* customer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customer.png; sourceTree = "<group>"; };
+		E1049B381AD2531F00532703 /* AddCustomerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerController.h; sourceTree = "<group>"; };
+		E1049B391AD2531F00532703 /* AddCustomerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerController.m; sourceTree = "<group>"; };
+		E1049B3A1AD2531F00532703 /* Cdrcus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cdrcus.h; sourceTree = "<group>"; };
+		E1049B3B1AD2531F00532703 /* Cdrcus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cdrcus.m; sourceTree = "<group>"; };
+		E1049B3C1AD2531F00532703 /* Cdrschedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cdrschedule.h; sourceTree = "<group>"; };
+		E1049B3D1AD2531F00532703 /* Cdrschedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cdrschedule.m; sourceTree = "<group>"; };
+		E1049B3E1AD2531F00532703 /* CoreDataTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableController.h; sourceTree = "<group>"; };
+		E1049B3F1AD2531F00532703 /* CoreDataTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableController.m; sourceTree = "<group>"; };
+		E1049B421AD2531F00532703 /* CustomerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerCell.h; sourceTree = "<group>"; };
+		E1049B431AD2531F00532703 /* CustomerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerCell.m; sourceTree = "<group>"; };
+		E1049B441AD2531F00532703 /* EditCustomerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCustomerController.h; sourceTree = "<group>"; };
+		E1049B451AD2531F00532703 /* EditCustomerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCustomerController.m; sourceTree = "<group>"; };
+		E1806ADD1AD1847D00CD0B36 /* iHanbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHanbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1806AE11AD1847D00CD0B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1806AE21AD1847D00CD0B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1806AE41AD1847D00CD0B36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1806AE51AD1847D00CD0B36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1806AE81AD1847D00CD0B36 /* iHanbell.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iHanbell.xcdatamodel; sourceTree = "<group>"; };
+		E1806AEE1AD1847D00CD0B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1806AF01AD1847D00CD0B36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1806AF31AD1847D00CD0B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E1806AF91AD1847D00CD0B36 /* iHanbellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHanbellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1806AFE1AD1847D00CD0B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1806AFF1AD1847D00CD0B36 /* iHanbellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHanbellTests.m; sourceTree = "<group>"; };
+		E19F2C231AD255D300AE0DF1 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		E19F2C241AD255D300AE0DF1 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1806ADA1AD1847D00CD0B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1806AF61AD1847D00CD0B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1049B311AD2512C00532703 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				E1049B341AD252AD00532703 /* account.png */,
+				E1049B351AD252AD00532703 /* customer.png */,
+				E1049B321AD2519F00532703 /* bg.png */,
+				E1049B291AD2511500532703 /* order.png */,
+			);
+			name = imgs;
+			sourceTree = "<group>";
+		};
+		E1806AD41AD1847D00CD0B36 = {
+			isa = PBXGroup;
+			children = (
+				E1806ADF1AD1847D00CD0B36 /* iHanbell */,
+				E1806AFC1AD1847D00CD0B36 /* iHanbellTests */,
+				E1806ADE1AD1847D00CD0B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1806ADE1AD1847D00CD0B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1806ADD1AD1847D00CD0B36 /* iHanbell.app */,
+				E1806AF91AD1847D00CD0B36 /* iHanbellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1806ADF1AD1847D00CD0B36 /* iHanbell */ = {
+			isa = PBXGroup;
+			children = (
+				E19F2C231AD255D300AE0DF1 /* Customer.h */,
+				E19F2C241AD255D300AE0DF1 /* Customer.m */,
+				E1049B381AD2531F00532703 /* AddCustomerController.h */,
+				E1049B391AD2531F00532703 /* AddCustomerController.m */,
+				E1049B3A1AD2531F00532703 /* Cdrcus.h */,
+				E1049B3B1AD2531F00532703 /* Cdrcus.m */,
+				E1049B3C1AD2531F00532703 /* Cdrschedule.h */,
+				E1049B3D1AD2531F00532703 /* Cdrschedule.m */,
+				E1049B3E1AD2531F00532703 /* CoreDataTableController.h */,
+				E1049B3F1AD2531F00532703 /* CoreDataTableController.m */,
+				E1049B421AD2531F00532703 /* CustomerCell.h */,
+				E1049B431AD2531F00532703 /* CustomerCell.m */,
+				E1049B441AD2531F00532703 /* EditCustomerController.h */,
+				E1049B451AD2531F00532703 /* EditCustomerController.m */,
+				E1049B311AD2512C00532703 /* imgs */,
+				E1049B231AD2511500532703 /* ListCustomerController.h */,
+				E1049B241AD2511500532703 /* ListCustomerController.m */,
+				E1049B251AD2511500532703 /* ListSalesOrderController.h */,
+				E1049B261AD2511500532703 /* ListSalesOrderController.m */,
+				E1049B271AD2511500532703 /* MainViewController.h */,
+				E1049B281AD2511500532703 /* MainViewController.m */,
+				E1049B2A1AD2511500532703 /* SalesOrderCell.h */,
+				E1049B2B1AD2511500532703 /* SalesOrderCell.m */,
+				E1049B201AD18D3700532703 /* LoginViewController.h */,
+				E1049B211AD18D3700532703 /* LoginViewController.m */,
+				E1806AE41AD1847D00CD0B36 /* AppDelegate.h */,
+				E1806AE51AD1847D00CD0B36 /* AppDelegate.m */,
+				E1806AED1AD1847D00CD0B36 /* Main.storyboard */,
+				E1806AF01AD1847D00CD0B36 /* Images.xcassets */,
+				E1806AF21AD1847D00CD0B36 /* LaunchScreen.xib */,
+				E1806AE71AD1847D00CD0B36 /* iHanbell.xcdatamodeld */,
+				E1806AE01AD1847D00CD0B36 /* Supporting Files */,
+			);
+			path = iHanbell;
+			sourceTree = "<group>";
+		};
+		E1806AE01AD1847D00CD0B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1806AE11AD1847D00CD0B36 /* Info.plist */,
+				E1806AE21AD1847D00CD0B36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1806AFC1AD1847D00CD0B36 /* iHanbellTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1806AFF1AD1847D00CD0B36 /* iHanbellTests.m */,
+				E1806AFD1AD1847D00CD0B36 /* Supporting Files */,
+			);
+			path = iHanbellTests;
+			sourceTree = "<group>";
+		};
+		E1806AFD1AD1847D00CD0B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1806AFE1AD1847D00CD0B36 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1806ADC1AD1847D00CD0B36 /* iHanbell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1806B031AD1847D00CD0B36 /* Build configuration list for PBXNativeTarget "iHanbell" */;
+			buildPhases = (
+				E1806AD91AD1847D00CD0B36 /* Sources */,
+				E1806ADA1AD1847D00CD0B36 /* Frameworks */,
+				E1806ADB1AD1847D00CD0B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHanbell;
+			productName = iHanbell;
+			productReference = E1806ADD1AD1847D00CD0B36 /* iHanbell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1806AF81AD1847D00CD0B36 /* iHanbellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1806B061AD1847D00CD0B36 /* Build configuration list for PBXNativeTarget "iHanbellTests" */;
+			buildPhases = (
+				E1806AF51AD1847D00CD0B36 /* Sources */,
+				E1806AF61AD1847D00CD0B36 /* Frameworks */,
+				E1806AF71AD1847D00CD0B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1806AFB1AD1847D00CD0B36 /* PBXTargetDependency */,
+			);
+			name = iHanbellTests;
+			productName = iHanbellTests;
+			productReference = E1806AF91AD1847D00CD0B36 /* iHanbellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1806AD51AD1847D00CD0B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = KevinDong;
+				TargetAttributes = {
+					E1806ADC1AD1847D00CD0B36 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 6R4UW57C89;
+					};
+					E1806AF81AD1847D00CD0B36 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = E1806ADC1AD1847D00CD0B36;
+					};
+				};
+			};
+			buildConfigurationList = E1806AD81AD1847D00CD0B36 /* Build configuration list for PBXProject "iHanbell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1806AD41AD1847D00CD0B36;
+			productRefGroup = E1806ADE1AD1847D00CD0B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1806ADC1AD1847D00CD0B36 /* iHanbell */,
+				E1806AF81AD1847D00CD0B36 /* iHanbellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1806ADB1AD1847D00CD0B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1049B331AD2519F00532703 /* bg.png in Resources */,
+				E1049B371AD252AD00532703 /* customer.png in Resources */,
+				E1049B361AD252AD00532703 /* account.png in Resources */,
+				E1049B2F1AD2511500532703 /* order.png in Resources */,
+				E1806AEF1AD1847D00CD0B36 /* Main.storyboard in Resources */,
+				E1806AF41AD1847D00CD0B36 /* LaunchScreen.xib in Resources */,
+				E1806AF11AD1847D00CD0B36 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1806AF71AD1847D00CD0B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1806AD91AD1847D00CD0B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1806AE91AD1847D00CD0B36 /* iHanbell.xcdatamodeld in Sources */,
+				E1806AE61AD1847D00CD0B36 /* AppDelegate.m in Sources */,
+				E1806AE31AD1847D00CD0B36 /* main.m in Sources */,
+				E1049B491AD2531F00532703 /* CoreDataTableController.m in Sources */,
+				E19F2C251AD255D300AE0DF1 /* Customer.m in Sources */,
+				E1049B471AD2531F00532703 /* Cdrcus.m in Sources */,
+				E1049B2D1AD2511500532703 /* ListSalesOrderController.m in Sources */,
+				E1049B4C1AD2531F00532703 /* EditCustomerController.m in Sources */,
+				E1049B2E1AD2511500532703 /* MainViewController.m in Sources */,
+				E1049B221AD18D3700532703 /* LoginViewController.m in Sources */,
+				E1049B2C1AD2511500532703 /* ListCustomerController.m in Sources */,
+				E1049B301AD2511500532703 /* SalesOrderCell.m in Sources */,
+				E1049B4B1AD2531F00532703 /* CustomerCell.m in Sources */,
+				E1049B461AD2531F00532703 /* AddCustomerController.m in Sources */,
+				E1049B481AD2531F00532703 /* Cdrschedule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1806AF51AD1847D00CD0B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1806B001AD1847D00CD0B36 /* iHanbellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1806AFB1AD1847D00CD0B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1806ADC1AD1847D00CD0B36 /* iHanbell */;
+			targetProxy = E1806AFA1AD1847D00CD0B36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1806AED1AD1847D00CD0B36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1806AEE1AD1847D00CD0B36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1806AF21AD1847D00CD0B36 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1806AF31AD1847D00CD0B36 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1806B011AD1847D00CD0B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1806B021AD1847D00CD0B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1806B041AD1847D00CD0B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iHanbell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E1806B051AD1847D00CD0B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iHanbell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E1806B071AD1847D00CD0B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iHanbellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHanbell.app/iHanbell";
+			};
+			name = Debug;
+		};
+		E1806B081AD1847D00CD0B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iHanbellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iHanbell.app/iHanbell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1806AD81AD1847D00CD0B36 /* Build configuration list for PBXProject "iHanbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1806B011AD1847D00CD0B36 /* Debug */,
+				E1806B021AD1847D00CD0B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1806B031AD1847D00CD0B36 /* Build configuration list for PBXNativeTarget "iHanbell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1806B041AD1847D00CD0B36 /* Debug */,
+				E1806B051AD1847D00CD0B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1806B061AD1847D00CD0B36 /* Build configuration list for PBXNativeTarget "iHanbellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1806B071AD1847D00CD0B36 /* Debug */,
+				E1806B081AD1847D00CD0B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1806AE71AD1847D00CD0B36 /* iHanbell.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1806AE81AD1847D00CD0B36 /* iHanbell.xcdatamodel */,
+			);
+			currentVersion = E1806AE81AD1847D00CD0B36 /* iHanbell.xcdatamodel */;
+			path = iHanbell.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1806AD51AD1847D00CD0B36 /* Project object */;
+}
